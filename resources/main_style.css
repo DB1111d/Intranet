@@ -1,0 +1,70 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+h1 {
+  padding-bottom: 20px;
+}
+#index-page-h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#index-page-h3-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#index-page-h3-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.container-fluid {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.tab-content {
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 35px;
+  line-height: 25px; /* Vertically center the text there */
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#index-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 0px;
+  line-height: 25px; /* Vertically center the text there */
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
